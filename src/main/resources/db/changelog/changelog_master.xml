@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+
+
+    <include file="db/changelog/tables/create-author-table.xml"/>
+    <include file="db/changelog/tables/create-passport-table.xml"/>
+    <include file="db/changelog/tables/create_phone_number_table.xml"/>
+
+    <include file="db/changelog/data/create_users.xml"/>
+    <include file="db/changelog/data/create_passport.xml"/>
+    <include file="db/changelog/data/create_phone_number.xml"/>
+
+
+</databaseChangeLog>
